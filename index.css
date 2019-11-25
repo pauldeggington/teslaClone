@@ -74,7 +74,11 @@ ul {
     font-size: 28px;
     opacity: 1;
 }
-
+@media only screen and (max-width: 900px) {
+    .arrowDisclaimerContainer {
+        display: none;
+    }
+}
 /* Menuing */
 .menu {
     margin: 0px 15px 15px 15px;
