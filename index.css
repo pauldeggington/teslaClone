@@ -47,6 +47,22 @@ ul {
     text-decoration: none;
     list-style-type: none;
 }
+.arrowDisclaimerContainer{
+    display:flex;
+    justify-content: center;
+    height: 95vh;
+    align-items:flex-end;
+}
+.firstParent {
+    margin-top: -63px;
+    height: 95vh;
+}
+.fa-chevron-down {
+    filter: invert(100);
+    font-size: 28px;
+    opacity: 1;
+}
+
 /* Menuing */
 .menu {
     margin: 0px 15px 15px 15px;
@@ -165,6 +181,9 @@ footer {
     }
 }
 /* Mobile Menu */
+
+
+
 
 
 
