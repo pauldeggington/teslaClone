@@ -157,10 +157,11 @@ ul {
     color: white;
     opacity: 0.5;
     margin: 5px 0px 5px 0px;
-    padding: 3px 0px 3px 3px;
+    padding: 3px 0px 3px 6px;
     border-left-color: rgb(208, 209, 210);
     border-left-width: 4px;
     border-left-style: solid;
+    font-size: 12px;
     
 }
 
