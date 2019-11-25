@@ -6,14 +6,15 @@
 
 body {
     font-family: "gothamBook", sans-serif;
-    
 }
 
 a {
     color: black;
     text-decoration: none;
 }
-
+a.navText:hover {
+    color: #a2a3a5;
+}
 ul {
     text-decoration: none;
     list-style-type: none;
@@ -23,7 +24,7 @@ ul {
     margin: 20px 15px 15px 15px;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
 }
 
 .menu li {
@@ -40,11 +41,15 @@ ul {
     filter: invert(0);
     width: 100px;
     height: 23px;
-    
 }
+
 .leftNav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
     margin: 2.5px 0px 0px 10px;
 }
+
 .leftNav,
 .middleNav,
 .rightNav {
@@ -52,15 +57,55 @@ ul {
     
 }
 .middleNav {
-    justify-content: center;
+    
     text-align: center;
-    flex-grow: 1;
+    
 }
-.rightNav {
-    text-align: right;
+.rightShopSignInNav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .middleNav {
+        display: none;
+    }
+    .menu {
+        
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .rightShopSignInNav {
+        display: none;
+    }
+}
+
+/* Footer */
+nav {
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+.footerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerNav li {
+    margin: 0px 10px 0px 10px;
+    font-size: 12px;
 }
 
 /* Mobile Menu */
+
+
 
 /* Font Faces */
 @font-face {
