@@ -61,12 +61,12 @@ ul {
 .arrowDisclaimerContainer {
     display: flex;
     justify-content: center;
-    height: 95vh;
+    height: 99vh;
     align-items: flex-end;
 }
 
 .firstParent {
-    height: 95vh;
+    height: 99vh;
 }
 
 .fa-chevron-down {
