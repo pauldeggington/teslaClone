@@ -200,6 +200,7 @@ ul {
     width: 0 !important
 }
 .hamburgerMenu {
+    overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
     scrollbar-width: none
 }
