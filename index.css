@@ -87,7 +87,7 @@ ul {
 
 /* Menuing */
 .menu {
-    margin: 0px 15px 15px 15px;
+    margin: 0px 10px 15px 10px;
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -115,7 +115,7 @@ ul {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    margin: 2.5px 0px 0px 10px;
+    margin: 2.5px 0px 0px 0px;
 }
 
 .leftNav,
