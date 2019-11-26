@@ -21,7 +21,7 @@ body {
     height: 100vh;
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 80em) {
     .heroBackground {
         background-position: center;
         background-size: cover;
