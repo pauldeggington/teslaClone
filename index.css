@@ -199,7 +199,19 @@ ul {
 .hamburgerMenu::-webkit-scrollbar {
     width: 0 !important
 }
-
+.hamburgerMenu {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+.hamburgerMenuIconOpen {
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+    list-style-type: none;
+}
+.closedMenuBars {
+    color: black;
+    text-decoration: none;
+}
 .sideNavText {
     margin: 10px 20px 10px 20px;
     padding: 20px 100px 20px 20px;
