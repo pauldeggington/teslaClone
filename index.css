@@ -61,7 +61,12 @@ a {
 a.navText:hover {
     color: #a2a3a5;
 }
-
+a#tesla, #power, #accessories, #modely {
+    height: 0px;
+    width: 0px;
+    margin:0;
+    padding: 0px;
+}
 ul {
     text-decoration: none;
     list-style-type: none;
