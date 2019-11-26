@@ -292,7 +292,9 @@ ul {
 .buttonContainer button:last-of-type {
     background-color: transparent;
     color: #fff;
+    margin-left: 15px;
 }
+
 .topCaption {
     margin-top: 15vh;
     display: flex;
