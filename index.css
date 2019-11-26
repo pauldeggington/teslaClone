@@ -258,9 +258,10 @@ footer {
     text-align: center;
 }
 
+
 @media only screen and (max-width: 650px) {
     footer {
-        height: 20rem;
+        height: 7rem;
     }
 
     .footerNav {
@@ -270,6 +271,11 @@ footer {
     .footerNav li {
         margin: 15px 10px 15px 10px;
         font-size: 13px;
+    }
+    .footerNav li:nth-child(n+3):nth-child(-n+7)
+    {
+        margin:0;
+        display: none;
     }
 }
 
