@@ -20,12 +20,14 @@ body {
     background-size: 200% auto;
     height: 100vh;
 }
+
 @media only screen and (max-width: 915px) {
     .heroBackground {
         background-position: center;
         background-size: cover;
     }
 }
+
 .fullBack2 {
     background-image: url("fullBack2.jpg");
     background-size: cover;
@@ -218,6 +220,34 @@ ul {
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
     scrollbar-width: none
+}
+
+.hamburgerMenu a:nth-child(-n+7) {
+    display: none;
+}
+
+@media only screen and (max-width: 915px) {
+    .hamburgerMenu a:nth-child(-n+7) {
+        display: inline-block;
+    }
+}
+
+.hamburgerMenu a:nth-child(19) {
+    display: none;
+}
+
+.hamburgerMenu a:nth-child(20) {
+    display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    .hamburgerMenu a:nth-child(19) {
+        display: inline-block;
+    }
+
+    .hamburgerMenu a:nth-child(20) {
+        display: inline-block;
+    }
 }
 
 .hamburgerMenuIconOpen {
