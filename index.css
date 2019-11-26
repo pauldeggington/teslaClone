@@ -16,13 +16,19 @@ body {
 .heroBackground {
     background-image: url("fullBack.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 40%;
-    background-size: cover;
+    background-position: 50% 60%;
+    background-size: 200% auto;
     height: 100vh;
 }
-
+@media only screen and (max-width: 915px) {
+    .heroBackground {
+        background-position: center;
+        background-size: cover;
+    }
+}
 .fullBack2 {
-    background-image: url("fullBack2.jpg")
+    background-image: url("fullBack2.jpg");
+    background-size: cover;
 }
 
 .fullBackVideo {
@@ -35,11 +41,13 @@ body {
 }
 
 .fullBack3 {
-    background-image: url("fullBack3.jpg")
+    background-image: url("fullBack3.jpg");
+    background-size: cover;
 }
 
 .fullBack4 {
-    background-image: url("fullBack4.jpg")
+    background-image: url("fullBack4.jpg");
+    background-size: cover;
 }
 
 a {
