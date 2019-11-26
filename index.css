@@ -79,7 +79,7 @@ ul {
     opacity: 1;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 915px) {
     .arrowDisclaimerContainer {
         display: none;
     }
@@ -138,7 +138,7 @@ ul {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 915px) {
     .middleNav {
         display: none;
     }
@@ -174,7 +174,7 @@ ul {
     opacity: 1;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 915px) {
     .leftSideNav {
         display: none;
     }
