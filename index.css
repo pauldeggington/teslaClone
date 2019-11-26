@@ -121,6 +121,7 @@ ul {
 .leftNav,
 .middleNav,
 .rightNav {
+    user-select: none;
     display: flex;
 
 }
@@ -151,6 +152,7 @@ ul {
 
 /* Side Nav */
 .leftSideNav {
+    user-select: none;
     position: fixed;
     top: 35%;
     margin: 0px 0px 0px 15px;
@@ -188,6 +190,7 @@ ul {
 }
 
 .hamburgerMenu {
+    user-select: none;
     position: absolute;
     right: 0;
     overflow: auto;
