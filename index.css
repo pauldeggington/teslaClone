@@ -227,10 +227,10 @@ ul {
 }
 
 .sideNavText:first-of-type {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .sideNavText:last-of-type {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 /* Footer */
 nav {}
