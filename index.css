@@ -141,8 +141,6 @@ ul {
     .middleNav {
         display: none;
     }
-
-    .menu {}
 }
 
 @media only screen and (max-width: 1100px) {
@@ -217,6 +215,7 @@ ul {
     padding: 20px 15px 0px 0px;
     list-style-type: none;
 }
+
 .hamburgerMenuIcon {
     z-index: 999;
     background-color: black;
@@ -246,6 +245,47 @@ ul {
 
 .sideNavText:last-of-type {
     margin-bottom: 20px;
+}
+
+/* Scroll to Top Button */
+#goToButton {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9000;
+}
+
+#goToButton::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#goToButton:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#goToButton:active {
+    background-color: #555;
+}
+
+#goToButton.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Main Body */
