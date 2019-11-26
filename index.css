@@ -66,7 +66,7 @@ ul {
 }
 
 .firstParent {
-    height: 99vh;
+    height: 78vh;
 }
 
 .fa-chevron-down {
@@ -232,9 +232,31 @@ ul {
 .sideNavText:last-of-type {
     margin-bottom: 20px;
 }
-/* Footer */
-nav {}
 
+/* Main Body */
+.callToActionContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.topCaption {
+    margin-top: 16vh;
+    display: flex;
+    justify-content: center;
+}
+.topCaption h1 {
+    color: #fff;
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: 750;
+}
+
+/* Footer */
 footer {
     display: flex;
     justify-content: center;
