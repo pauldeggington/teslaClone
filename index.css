@@ -63,6 +63,8 @@ body {
 .fullBack3 {
     background-image: url("fullBack3.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @supports (background-image: url("fullBack3.webp")) {
