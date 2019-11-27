@@ -35,6 +35,7 @@ body {
     .heroBackground {
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
@@ -46,6 +47,7 @@ body {
 @supports (background-image: url("fullBack2.webp")) {
     .fullBack2 {
         background: url("fullBack2.webp");
+        background-repeat: no-repeat;
     }
 }
 
@@ -68,6 +70,7 @@ body {
         background: url("fullBack3.webp");
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
@@ -81,6 +84,7 @@ body {
         background: url("fullBack4.webp");
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
