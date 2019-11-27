@@ -48,6 +48,9 @@ body {
     .fullBack2 {
         background: url("fullBack2.webp");
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
