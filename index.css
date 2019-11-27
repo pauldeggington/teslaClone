@@ -21,16 +21,20 @@ body {
     height: 100vh;
 }
 
+@supports (background-image: url("fullBack.webp")) {
+    .heroBackground {
+        background: url("fullBack.webp");
+        background-repeat: no-repeat;
+        background-position: 50% 60%;
+        background-size: 200% auto;
+        height: 100vh;
+    }
+}
+
 @media only screen and (max-width: 80em) {
     .heroBackground {
         background-position: center;
         background-size: cover;
-    }
-}
-
-@supports (background-image: url("fullBack.webp")) {
-    .yourclass {
-        background: url("fullBack.webp");
     }
 }
 
@@ -40,7 +44,7 @@ body {
 }
 
 @supports (background-image: url("fullBack2.webp")) {
-    .yourclass {
+    .fullBack2 {
         background: url("fullBack2.webp");
     }
 }
@@ -60,8 +64,10 @@ body {
 }
 
 @supports (background-image: url("fullBack3.webp")) {
-    .yourclass {
+    .fullBack3 {
         background: url("fullBack3.webp");
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -71,8 +77,10 @@ body {
 }
 
 @supports (background-image: url("fullBack4.webp")) {
-    .yourclass {
+    .fullBack4 {
         background: url("fullBack4.webp");
+        background-size: cover;
+        background-position: center;
     }
 }
 
