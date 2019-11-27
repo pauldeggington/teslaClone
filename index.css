@@ -66,6 +66,12 @@ a#tesla, #power, #accessories, #modely {
     width: 0;
     margin:0;
     padding: 0;
+    color: inherit;
+    filter: invert(100);
+    user-select: none;
+}
+.chevronDownA {
+    color: #fff;
 }
 ul {
     text-decoration: none;
@@ -84,7 +90,6 @@ ul {
 }
 
 .fa-chevron-down {
-    filter: invert(100);
     font-size: 28px;
     opacity: 1;
 }
