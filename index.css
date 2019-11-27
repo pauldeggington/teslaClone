@@ -20,11 +20,15 @@ body {
     background-size: 200% auto;
     height: 100vh;
 }
-
 @media only screen and (max-width: 80em) {
     .heroBackground {
         background-position: center;
         background-size: cover;
+    }
+}
+@supports (background-image: url("fullBack.webp")) {
+    .yourclass {
+        background: url("fullBack.webp");
     }
 }
 
@@ -32,7 +36,11 @@ body {
     background-image: url("fullBack2.jpg");
     background-size: cover;
 }
-
+@supports (background-image: url("fullBack2.webp")) {
+    .yourclass {
+        background: url("fullBack2.webp");
+    }
+}
 .fullBackVideo {
     background-repeat: no-repeat;
     background-position: 50% 40%;
@@ -46,12 +54,20 @@ body {
     background-image: url("fullBack3.jpg");
     background-size: cover;
 }
-
+@supports (background-image: url("fullBack3.webp")) {
+    .yourclass {
+        background: url("fullBack3.webp");
+    }
+}
 .fullBack4 {
     background-image: url("fullBack4.jpg");
     background-size: cover;
 }
-
+@supports (background-image: url("fullBack4.webp")) {
+    .yourclass {
+        background: url("fullBack4.webp");
+    }
+}
 a {
     color: white;
     text-decoration: none;
