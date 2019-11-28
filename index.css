@@ -402,6 +402,7 @@ ul {
 .buttonContainer button:last-of-type:hover {
     color: #000000;
     background-color: #ffffff;
+    border-color: #ffffff;
 }
 
 .topCaption {
