@@ -160,7 +160,7 @@ ul {
 }
 
 .menu li {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 800;
     margin: 0 10px 0 10px;
     white-space: nowrap;
@@ -232,7 +232,7 @@ ul {
     border-left-color: rgb(208, 209, 210);
     border-left-width: 4px;
     border-left-style: solid;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .leftSideNav li:hover {
