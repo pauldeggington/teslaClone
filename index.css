@@ -107,12 +107,9 @@ a#tesla,
 #power,
 #accessories,
 #modely {
-    height: 0;
-    width: 0;
+    line-height: 0px;
     margin: 0;
     padding: 0;
-    color: inherit;
-    filter: invert(100);
     user-select: none;
 }
 
@@ -128,12 +125,13 @@ ul {
 .arrowDisclaimerContainer {
     display: flex;
     justify-content: center;
-    height: 79vh;
+    position: relative;
+    margin-top: 75vh;
     align-items: flex-end;
 }
 
 .firstParent {
-    height: 70vh;
+    margin-top: 67vh;
 }
 
 .fa-chevron-down {
@@ -358,7 +356,7 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 28px;
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 650px) {
