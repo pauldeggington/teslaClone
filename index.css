@@ -394,7 +394,7 @@ ul {
 .buttonContainer button:last-of-type {
     background-color: transparent;
     color: #fff;
-    margin-left: 15px;
+    margin-left: 13px;
     transition: 0.2s ease-out;
 }
 
@@ -421,7 +421,7 @@ ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 6px 0 17px 0;
+    margin: 4px 0 0 0;
 
 }
 
