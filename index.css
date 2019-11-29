@@ -259,14 +259,16 @@ ul {
     position: absolute;
     right: 0;
     overflow: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
     text-decoration: none;
     text-align: left;
     background-color: white;
     height: 100vh;
 }
-
+.menuOpen{
+    display: flex;
+  }
 .hamburgerMenu::-webkit-scrollbar {
     width: 0;
 }
