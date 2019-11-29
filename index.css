@@ -374,7 +374,7 @@ ul {
     margin: 8px 0 8px 0;
     padding: 5px 40px 5px 40px;
     min-width: 200px;
-    width: 250px;
+    max-width: 250px;
     border: 3px solid #ffffff;
     border-radius: 100px;
     color: #171a20;
@@ -404,7 +404,12 @@ ul {
     background-color: #ffffff;
     border-color: #ffffff;
 }
-
+.buttonContainer button:first-of-type {
+    background-color: #ffffff;
+    color: #000000;
+    margin-left: 13px;
+    transition: 0.2s ease-out;
+}
 .topCaption {
     margin-top: 15vh;
     display: flex;
