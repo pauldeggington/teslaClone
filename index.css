@@ -267,7 +267,7 @@ ul {
     height: 100vh;
 }
 .menuOpen{
-    display: flex;
+    display: flex; 
   }
 .hamburgerMenu::-webkit-scrollbar {
     width: 0;
