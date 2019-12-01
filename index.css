@@ -308,15 +308,10 @@ ul {
     }
 }
 
-.hamburgerMenuIconOpen {
-    text-align: right;
-    padding: 20px 15px 0 0;
-    list-style-type: none;
-}
-
 .hamburgerMenuIcon {
     z-index: 999;
-    background-color: black;
+    background-color: none;
+    cursor: pointer;
 }
 
 .closedMenuBars {
