@@ -3,7 +3,7 @@
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
-    transition-duration: 0.15s;
+    transition-duration: 0.2s;
     transition-timing-function: linear;
     font: inherit;
     color: inherit;
@@ -68,7 +68,7 @@
     top: 5px;
     transition-property: transform, opacity;
     transition-timing-function: ease;
-    transition-duration: 0.15s;
+    transition-duration: 0.2s;
 }
 
 .hamburger--slider .hamburger-inner::after {
