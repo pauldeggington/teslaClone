@@ -1,3 +1,4 @@
+// Right Side Nav Menu Opening
 nav = {
   status: true,
   menu: function(){

@@ -174,6 +174,7 @@ ul {
     filter: invert(100);
     width: 100px;
     height: 23px;
+    cursor: pointer;
 }
 
 .leftNav {
@@ -267,7 +268,7 @@ ul {
     height: 100vh;
 }
 .menuOpen{
-    display: flex; 
+    display: flex;
   }
 .hamburgerMenu::-webkit-scrollbar {
     width: 0;
@@ -375,8 +376,7 @@ ul {
     background-color: #fff;
     margin: 8px 0 8px 0;
     padding: 5px 40px 5px 40px;
-    min-width: 200px;
-    max-width: 250px;
+    width: 250px;
     border: 3px solid #ffffff;
     border-radius: 100px;
     color: #171a20;
@@ -409,8 +409,12 @@ ul {
 .buttonContainer button:first-of-type {
     background-color: #ffffff;
     color: #000000;
-    margin-left: 13px;
     transition: 0.2s ease-out;
+}
+@media only screen and (max-width: 650px) {
+    .buttonContainer button:last-of-type {
+        margin-left: 0;
+    }
 }
 .topCaption {
     margin-top: 15vh;
