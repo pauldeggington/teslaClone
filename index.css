@@ -268,9 +268,11 @@ ul {
     background-color: white;
     height: 100vh;
 }
-.menuOpen{
+
+.menuOpen {
     display: flex;
-  }
+}
+
 .hamburgerMenu::-webkit-scrollbar {
     width: 0;
 }
@@ -398,16 +400,19 @@ ul {
     background-color: #ffffff;
     border-color: #ffffff;
 }
+
 .buttonContainer button:first-of-type {
     background-color: #ffffff;
     color: #000000;
     transition: 0.2s ease-out;
 }
+
 @media only screen and (max-width: 650px) {
     .buttonContainer button:last-of-type {
         margin-left: 0;
     }
 }
+
 .topCaption {
     margin-top: 15vh;
     display: flex;
