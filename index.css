@@ -315,6 +315,7 @@ ul {
     z-index: 999;
     background-color: none;
     cursor: pointer;
+    height: 18px;
 }
 
 
