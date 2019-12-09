@@ -99,6 +99,13 @@ a {
     text-decoration: none;
     letter-spacing: 1px;
 }
+.disclaimerText {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    opacity: 1;
+    margin: 0 0 40px 0;
+}
 
 .navText:hover {
     color: #a2a3a5;
@@ -126,15 +133,22 @@ ul {
 .arrowDisclaimerContainer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     position: relative;
     margin-top: 75vh;
-    align-items: flex-end;
+    align-content: center;
 }
 
 .firstParent {
-    margin-top: 67vh;
+    margin-top: 62.5vh;
 }
-
+.lastParent {
+    margin-top: 68vh;
+}
+.arrowDisclaimerContainer, .disclaimerText, a i.fas{
+    display: flex;
+    justify-content: center;
+}
 .fa-chevron-down {
     font-size: 28px;
     opacity: 1;
@@ -153,7 +167,7 @@ ul {
 
 /* Menuing */
 .menu {
-    margin: 0 10px 15px 10px;
+    margin: 0 25px 15px 10px;
     padding-top: 16px;
     display: flex;
     flex-direction: row;
@@ -222,7 +236,7 @@ ul {
     user-select: none;
     position: fixed;
     top: 35%;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 12px;
 }
 
 .leftSideNav li {
@@ -232,9 +246,10 @@ ul {
     margin: 5px 0 5px 0;
     padding: 3px 0 3px 6px;
     border-left-color: rgb(208, 209, 210);
-    border-left-width: 4px;
+    border-left-width: 2px;
     border-left-style: solid;
     font-size: 10px;
+    text-align: left;
 }
 
 .leftSideNav li:hover {
@@ -316,6 +331,7 @@ ul {
     background-color: none;
     cursor: pointer;
     height: 15px;
+    margin: 0 0 0 5px;
 }
 
 
@@ -341,7 +357,9 @@ ul {
 }
 
 /* Scroll to Top Button */
-
+{
+    position: sticky;
+}
 
 /* Main Body */
 .callToActionContainer {
@@ -356,7 +374,12 @@ ul {
     flex-direction: row;
     margin-top: 8px;
 }
-
+.buttonContainer, .secondButtonContainer, .thirdButtonContainer{
+    margin-top: 16px;
+}
+.buttonTextContainer {
+    justify-content: center;
+}
 @media only screen and (max-width: 650px) {
     .buttonTextContainer {
         display: flex;
@@ -394,6 +417,9 @@ ul {
     color: #fff;
     margin-left: 13px;
     transition: 0.2s ease-out;
+}
+.buttonContainer.secondButtonContainer, .buttonContainer.thirdButtonContainer, button:last-of-type{
+    margin-left: 0px;
 }
 
 .buttonContainer button:last-of-type:hover {
