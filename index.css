@@ -99,6 +99,7 @@ a {
     text-decoration: none;
     letter-spacing: 1px;
 }
+
 .disclaimerText {
     font-size: 12px;
     font-weight: 400;
@@ -142,13 +143,18 @@ ul {
 .firstParent {
     margin-top: 62.5vh;
 }
+
 .lastParent {
     margin-top: 68vh;
 }
-.arrowDisclaimerContainer, .disclaimerText, a i.fas{
+
+.arrowDisclaimerContainer,
+.disclaimerText,
+a i.fas {
     display: flex;
     justify-content: center;
 }
+
 .fa-chevron-down {
     font-size: 28px;
     opacity: 1;
@@ -357,7 +363,7 @@ ul {
 }
 
 /* Scroll to Top Button */
-{
+    {
     position: sticky;
 }
 
@@ -374,12 +380,17 @@ ul {
     flex-direction: row;
     margin-top: 8px;
 }
-.buttonContainer, .secondButtonContainer, .thirdButtonContainer{
+
+.buttonContainer,
+.secondButtonContainer,
+.thirdButtonContainer {
     margin-top: 16px;
 }
+
 .buttonTextContainer {
     justify-content: center;
 }
+
 @media only screen and (max-width: 650px) {
     .buttonTextContainer {
         display: flex;
@@ -418,7 +429,10 @@ ul {
     margin-left: 13px;
     transition: 0.2s ease-out;
 }
-.buttonContainer.secondButtonContainer, .buttonContainer.thirdButtonContainer, button:last-of-type{
+
+.buttonContainer.secondButtonContainer,
+.buttonContainer.thirdButtonContainer,
+button:last-of-type {
     margin-left: 0px;
 }
 
