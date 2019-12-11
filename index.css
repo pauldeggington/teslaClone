@@ -292,7 +292,7 @@ a i.fas {
     text-align: left;
     background-color: white;
     height: 100vh;
-    
+
 }
 
 .menuOpen {
@@ -302,7 +302,7 @@ a i.fas {
 .noScroll {
     overflow: hidden;
     height: 100vh;
-    
+
 }
 
 .hamburgerMenu::-webkit-scrollbar {
@@ -374,9 +374,7 @@ a i.fas {
 }
 
 /* Scroll to Top Button */
-    {
-    position: sticky;
-}
+
 
 /* Main Body */
 .callToActionContainer {
@@ -503,7 +501,7 @@ footer {
     width: 100%;
     height: 6rem;
     background-color: white;
-    
+
 }
 
 .footerNav {
