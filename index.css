@@ -298,6 +298,12 @@ a i.fas {
     display: flex;
 }
 
+.noScroll {
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
 .hamburgerMenu::-webkit-scrollbar {
     width: 0;
 }

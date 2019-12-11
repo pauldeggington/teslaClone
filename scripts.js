@@ -6,10 +6,12 @@ nav = {
     if (nav.status){
       // here put class when menu is open - eg:
       document.querySelector(".hamburgerMenu").classList.add("menuOpen");
+      document.querySelector("body").classList.add("noScroll");
       nav.status = false;
     } else {
       // here put class when menu is closed - eg:
       document.querySelector(".hamburgerMenu").classList.remove("menuOpen");
+      document.querySelector("body").classList.remove("noScroll");
       nav.status = true;
     } 
   }
