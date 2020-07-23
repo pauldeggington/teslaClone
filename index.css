@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
     overflow-y: auto;
     overscroll-behavior-y: contain;
-    scroll-snap-type: y mandatory;
+    
 }
 
 body {
@@ -23,7 +23,7 @@ body {
     background-position: 50% 60%;
     background-size: 200% auto;
     height: 100vh;
-    scroll-snap-align: start;
+    
 }
 
 @supports (background-image: url("fullBack.webp")) {
